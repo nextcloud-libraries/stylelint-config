@@ -9,12 +9,12 @@
   },
   "peerDependencies": {
     "stylelint": "^14.0.0",
-    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-recommended-scss": "^5.0.0",
     "stylelint-scss": "^3.19.0"
   },
   "devDependencies": {
     "stylelint": "^14.0.0",
-    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-recommended-scss": "^5.0.0",
     "stylelint-scss": "^3.19.0"
   },
   "keywords": [
