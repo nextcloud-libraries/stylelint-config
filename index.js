@@ -1,5 +1,8 @@
 module.exports = {
-	extends: 'stylelint-config-recommended-scss',
+	extends: [
+		'stylelint-config-recommended-scss',
+		'stylelint-config-recommended-vue',
+	],
 	rules: {
 		indentation: 'tab',
 		'selector-type-no-unknown': null,
