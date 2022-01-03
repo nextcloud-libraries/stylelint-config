@@ -1,10 +1,18 @@
 # Changelog
 
+## [v2.1.0](https://github.com/nextcloud/stylelint-config/tree/v2.1.0) (2021-11-11)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.0.1...v2.1.0)
+
+**Fixed:**
+
+- Do not lint js and ts files [\#22](https://github.com/nextcloud/stylelint-config/pull/22) ([skjnldsv](https://github.com/skjnldsv))
+
 ## [v2.0.1](https://github.com/nextcloud/stylelint-config/tree/v2.0.1) (2021-11-11)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.0.0...v2.0.1)
 
-**Merged pull requests:**
+**Fixed:**
 
 - Fix missing stylelint-config-recommended-vue [\#16](https://github.com/nextcloud/stylelint-config/pull/16) ([skjnldsv](https://github.com/skjnldsv))
 
