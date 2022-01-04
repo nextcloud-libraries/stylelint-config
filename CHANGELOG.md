@@ -1,5 +1,14 @@
 # Changelog
 
+## [v2.1.1](https://github.com/nextcloud/stylelint-config/tree/v2.1.1) (2022-01-04)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.1.0...v2.1.1)
+
+**Fixed bugs:**
+
+- Do not lint svg files [\#25](https://github.com/nextcloud/stylelint-config/pull/25) ([skjnldsv](https://github.com/skjnldsv))
+- Fix stylelint scss config [\#26](https://github.com/nextcloud/stylelint-config/pull/26) ([skjnldsv](https://github.com/skjnldsv))
+
 ## [v2.1.0](https://github.com/nextcloud/stylelint-config/tree/v2.1.0) (2021-11-11)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.0.1...v2.1.0)
