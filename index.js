@@ -3,7 +3,7 @@ module.exports = {
 		'stylelint-config-recommended-scss',
 		'stylelint-config-recommended-vue',
 	],
-	ignoreFiles: ['**/*.js', '**/*.ts'],
+	ignoreFiles: ['**/*.js', '**/*.ts', '**/*.svg'],
 	rules: {
 		indentation: 'tab',
 		'selector-type-no-unknown': null,
