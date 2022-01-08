@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.1.2](https://github.com/nextcloud/stylelint-config/tree/v2.1.2) (2022-01-08)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.1.1...v2.1.2)
+
+**Implemented enhancements:**
+
+- Bump stylelint and associated [\#27](https://github.com/nextcloud/stylelint-config/pull/27) ([skjnldsv](https://github.com/skjnldsv))
+
 ## [v2.1.1](https://github.com/nextcloud/stylelint-config/tree/v2.1.1) (2022-01-04)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.1.0...v2.1.1)
