@@ -32,5 +32,9 @@ module.exports = {
 				ignorePseudoElements: ['v-deep'],
 			},
 		],
+		"at-rule-no-unknown": [
+			true, {
+			"ignoreAtRules": ["include", "mixin", "use"]
+		}]
 	},
 }
