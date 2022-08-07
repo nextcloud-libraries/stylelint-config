@@ -1,35 +1,35 @@
 {
-	"name": "@nextcloud/stylelint-config",
-	"version": "2.1.2",
-	"description": "Stylelint shared config for nextcloud vue.js apps",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nextcloud/stylelint-config.git"
-	},
-	"peerDependencies": {
-		"stylelint": "^14.2.0",
-		"stylelint-config-recommended-scss": "^6.0.0",
-		"stylelint-config-recommended-vue": "^1.1.0"
-	},
-	"devDependencies": {
-		"stylelint": "^14.2.0",
-		"stylelint-config-recommended-scss": "^6.0.0",
-		"stylelint-config-recommended-vue": "^1.1.0"
-	},
-	"keywords": [
-		"stylelint",
-		"config",
-		"nextcloud"
-	],
-	"author": "John Molakvoæ <skjnldsv@protonmail.com>",
-	"license": "AGPL-3.0-or-later",
-	"bugs": {
-		"url": "https://github.com/nextcloud/stylelint-config/issues"
-	},
-	"homepage": "https://github.com/nextcloud/stylelint-config#readme",
-	"engines": {
-		"node": "^14.0.0",
-		"npm": "^7.0.0"
-	}
+  "name": "@nextcloud/stylelint-config",
+  "version": "2.1.2",
+  "description": "Stylelint shared config for nextcloud vue.js apps",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextcloud/stylelint-config.git"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.2.0",
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-config-recommended-vue": "^1.1.0"
+  },
+  "devDependencies": {
+    "stylelint": "^14.2.0",
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-config-recommended-vue": "^1.1.0"
+  },
+  "keywords": [
+    "stylelint",
+    "config",
+    "nextcloud"
+  ],
+  "author": "John Molakvoæ <skjnldsv@protonmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nextcloud/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/nextcloud/stylelint-config#readme",
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^7.0.0 || ^8.0.0"
+  }
 }
