@@ -1,5 +1,13 @@
 # Changelog
 
+## [v2.2.0](https://github.com/nextcloud/stylelint-config/tree/v2.2.0) (2022-08-10)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.1.2...v2.2.0)
+
+**Changed**
+
+- Update engines versions to Node 16 with Npm 7 or Npm 8
+
 ## [v2.1.2](https://github.com/nextcloud/stylelint-config/tree/v2.1.2) (2022-01-08)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.1.1...v2.1.2)
