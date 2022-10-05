@@ -28,8 +28,8 @@ module.exports = {
 		'selector-pseudo-element-no-unknown': [
 			true,
 			{
-				// Vue v-deep pseudo-element
-				ignorePseudoElements: ['v-deep'],
+				// Vue deep pseudo-element
+				ignorePseudoElements: ['deep'],
 			},
 		],
 	},
