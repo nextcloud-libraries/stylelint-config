@@ -1,5 +1,14 @@
 # Changelog
 
+## [v2.3.0](https://github.com/nextcloud/stylelint-config/tree/v2.3.0) (2022-10-14)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.2.0...v2.3.0)
+
+**Implemented enhancements:**
+
+- `::v-deep` is deprecated in favor of `:deep` as of vue 2.7 [\#65](https://github.com/nextcloud/stylelint-config/pull/65) ([susnux](https://github.com/susnux))
+- Also allow `:deep` as a pseudo class [\#66](https://github.com/nextcloud/stylelint-config/pull/66) ([susnux](https://github.com/susnux))
+
 ## [v2.2.0](https://github.com/nextcloud/stylelint-config/tree/v2.2.0) (2022-08-10)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.1.2...v2.2.0)
