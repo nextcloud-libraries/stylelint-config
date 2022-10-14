@@ -25,6 +25,13 @@ module.exports = {
 		'selector-list-comma-newline-after': null,
 		'no-descending-specificity': null,
 		'string-quotes': 'single',
+		'selector-pseudo-class-no-unknown': [
+                        true,
+                        {
+                                // vue deep pseudo-class
+                                ignorePseudoClasses: ['deep'],
+                        },
+                ],
 		'selector-pseudo-element-no-unknown': [
 			true,
 			{
