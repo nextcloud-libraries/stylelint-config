@@ -8,13 +8,13 @@
     "url": "git+https://github.com/nextcloud/stylelint-config.git"
   },
   "peerDependencies": {
-    "stylelint": "^14.2.0",
-    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint": "^15.6.0",
+    "stylelint-config-recommended-scss": "^11.0.0",
     "stylelint-config-recommended-vue": "^1.1.0"
   },
   "devDependencies": {
-    "stylelint": "^14.2.0",
-    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint": "^15.6.0",
+    "stylelint-config-recommended-scss": "^11.0.0",
     "stylelint-config-recommended-vue": "^1.1.0"
   },
   "keywords": [
