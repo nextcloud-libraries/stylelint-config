@@ -1,5 +1,17 @@
 # Changelog
 
+## [v2.3.1](https://github.com/nextcloud/stylelint-config/tree/v2.3.1) (2023-07-11)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.3.0...v2.3.1)
+
+**Implemented enhancements:**
+
+- Bump stylelint and peers ([st3iny](https://github.com/st3iny))
+
+**Changed:**
+
+- Update engines versions to Node 20 with Npm 9 [\#78](https://github.com/nextcloud/stylelint-config/pull/78)
+
 ## [v2.3.0](https://github.com/nextcloud/stylelint-config/tree/v2.3.0) (2022-10-14)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.2.0...v2.3.0)
