@@ -5,7 +5,6 @@ module.exports = {
 	],
 	ignoreFiles: ['**/*.js', '**/*.ts', '**/*.svg'],
 	rules: {
-		indentation: 'tab',
 		'selector-type-no-unknown': null,
 		'number-leading-zero': null,
 		'rule-empty-line-before': [
@@ -24,7 +23,6 @@ module.exports = {
 		'selector-type-case': null,
 		'selector-list-comma-newline-after': null,
 		'no-descending-specificity': null,
-		'string-quotes': 'single',
 		'selector-pseudo-class-no-unknown': [
 			true,
 			{
@@ -40,4 +38,13 @@ module.exports = {
 			},
 		],
 	},
+	overrides: [
+		{
+			files: ['*.scss', '**/*.scss'],
+			rules: {
+				'at-rule-no-unknown': null,
+				'scss/at-rule-no-unknown': true,
+			},
+		},
+	],
 }
