@@ -1,7 +1,7 @@
 module.exports = {
 	extends: [
 		'stylelint-config-recommended-scss',
-        "stylelint-config-recommended-vue/scss"
+		'stylelint-config-recommended-vue/scss'
 	],
 	ignoreFiles: ['**/*.js', '**/*.ts', '**/*.svg'],
 	rules: {
@@ -26,12 +26,12 @@ module.exports = {
 		'no-descending-specificity': null,
 		'string-quotes': 'single',
 		'selector-pseudo-class-no-unknown': [
-                        true,
-                        {
-                                // vue deep pseudo-class
-                                ignorePseudoClasses: ['deep'],
-                        },
-                ],
+			true,
+			{
+				// vue deep pseudo-class
+				ignorePseudoClasses: ['deep'],
+			},
+		],
 		'selector-pseudo-element-no-unknown': [
 			true,
 			{
