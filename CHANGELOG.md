@@ -1,5 +1,18 @@
 # Changelog
 
+## [v2.4.0](https://github.com/nextcloud/stylelint-config/tree/v2.4.0) (2024-01-23)
+
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.3.1...v2.4.0)
+
+### Implemented enhancements
+
+* Bump stylelint-config-recommended-scss to 13.1.0
+* Update NPM version to `^10.0.0` to match version used by LTS Node 20
+
+### Fixed bugs
+
+* Fix indention to be consistent
+
 ## [v2.3.1](https://github.com/nextcloud/stylelint-config/tree/v2.3.1) (2023-07-11)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.3.0...v2.3.1)
