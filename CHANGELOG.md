@@ -1,5 +1,17 @@
 # Changelog
 
+## [v3.0.0](https://github.com/nextcloud/stylelint-config/tree/v3.0.0) (2024-04-15)
+[Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.4.0...v3.0.0)
+
+### Breaking changes :boom:
+stylelint was updated to version 16.0 which drops all stylistic changes.
+The means stylelint only will check for code quality but not for stylistic rules.
+So it is now recommended to instead use `prettier` with `@nextcloud/prettier-config` for stylistic rules.
+See also [Nextcloud prettier setup](https://github.com/nextcloud-libraries/nextcloud-prettier-config/blob/main/README.md#setup).
+
+### Changed
+* Updated stylelint and require stylelint version 16.2.0 or later.
+
 ## [v2.4.0](https://github.com/nextcloud/stylelint-config/tree/v2.4.0) (2024-01-23)
 
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.3.1...v2.4.0)
