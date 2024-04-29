@@ -1,6 +1,6 @@
 {
   "name": "@nextcloud/stylelint-config",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "description": "Stylelint shared config for nextcloud vue.js apps",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,7 @@
     "stylelint-config-recommended-vue": "^1.5.0"
   },
   "devDependencies": {
-    "stylelint": "^16.2.0",
+    "stylelint": "^16.3.1",
     "stylelint-config-recommended-scss": "^14.0.0",
     "stylelint-config-recommended-vue": "^1.5.0"
   },
