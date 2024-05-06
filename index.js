@@ -5,6 +5,10 @@ module.exports = {
 	],
 	ignoreFiles: ['**/*.js', '**/*.ts', '**/*.svg'],
 	rules: {
+		// Stylistic rules conflicting with prettier
+		'scss/operator-no-newline-after': null,
+		'scss/operator-no-newline-before': null,
+
 		'selector-type-no-unknown': null,
 		'rule-empty-line-before': [
 			'always',
