@@ -1,5 +1,11 @@
 # Changelog
 
+## [v3.0.1](https://github.com/nextcloud/stylelint-config/tree/v3.0.1) (2024-05-07)
+
+### Fixed
+
+* fix: Remove stylistic rules also for scss
+
 ## [v3.0.0](https://github.com/nextcloud/stylelint-config/tree/v3.0.0) (2024-04-15)
 [Full Changelog](https://github.com/nextcloud/stylelint-config/compare/v2.4.0...v3.0.0)
 
