@@ -1,3 +1,7 @@
+<!--
+  - SPDX-FileCopyrightText: 2021 Nextcloud GmbH and Nextcloud contributors
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
 # Changelog
 
 ## [v3.0.1](https://github.com/nextcloud/stylelint-config/tree/v3.0.1) (2024-05-07)

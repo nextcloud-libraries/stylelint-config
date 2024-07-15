@@ -1,5 +1,10 @@
+<!--
+  - SPDX-FileCopyrightText: 2021 Nextcloud GmbH and Nextcloud contributors
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
 ## @nextcloud/stylelint-config
 
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud-libraries/stylelint-config)](https://api.reuse.software/info/github.com/nextcloud-libraries/stylelint-config)
 [![npm last version](https://img.shields.io/npm/v/@nextcloud/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package/@nextcloud/stylelint-config)
 [![Dependabot status](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg?longCache=true&style=flat-square&logo=dependabot)](https://dependabot.com)
 
