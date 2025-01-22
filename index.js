@@ -8,6 +8,7 @@ module.exports = {
 		'stylelint-config-recommended-vue/scss'
 	],
 	ignoreFiles: ['**/*.js', '**/*.ts', '**/*.svg'],
+	plugins: ['stylelint-use-logical'],
 	rules: {
 		// Stylistic rules conflicting with prettier
 		'scss/operator-no-newline-after': null,
@@ -41,6 +42,31 @@ module.exports = {
 			{
 				// Vue deep pseudo-element
 				ignorePseudoElements: ['deep'],
+			},
+		],
+
+		// Logical properties
+		'csstools/use-logical': [
+			'always',
+			{
+				// TODO: make it an error in the next major or large release
+				severity: 'warning',
+				// Only lint LTR-RTL properties for now
+				except: [
+					// Position properties
+					'top',
+					'bottom',
+					// Position properties with directional suffixes
+					/-top$/,
+					/-bottom$/,
+					// Size properties
+					'width',
+					'max-width',
+					'min-width',
+					'height',
+					'max-height',
+					'min-height',
+				],
 			},
 		],
 	},
