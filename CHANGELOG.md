@@ -4,6 +4,15 @@
 -->
 # Changelog
 
+## [v3.1.0](https://github.com/nextcloud/stylelint-config/tree/v3.1.0) (2025-05-22)
+
+### Added
+* Add `csstools/use-logical` to warn about LTR-RTL properties [\#121](https://github.com/nextcloud-libraries/stylelint-config/pull/121) ([ShGKme](https://github.com/ShGKme))
+
+### Changed
+* Updated stylelint and require stylelint version 16.13.2 or later
+* Add SPDX header [\#109](https://github.com/nextcloud-libraries/stylelint-config/pull/109) ([AndyScherzinger](https://github.com/AndyScherzinger))
+
 ## [v3.0.1](https://github.com/nextcloud/stylelint-config/tree/v3.0.1) (2024-05-07)
 
 ### Fixed
