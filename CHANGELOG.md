@@ -4,6 +4,15 @@
 -->
 # Changelog
 
+## [v4.0.0](https://github.com/nextcloud/stylelint-config/tree/v4.0.0) (unreleased)
+
+### Breaking changes :boom:
+This configuration again contains stylistic rules.
+Due to no consensus on the prettier usage and the large user base of the configuration,
+the stylistic rules are again part of this configuration.
+
+If you are using prettier, you can try to extend from `@nextcloud/prettier-config/config.js` instead.
+
 ## [v3.1.0](https://github.com/nextcloud/stylelint-config/tree/v3.1.0) (2025-05-22)
 
 ### Added
