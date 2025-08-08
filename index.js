@@ -1,7 +1,20 @@
-/**
+/*
  * SPDX-FileCopyrightText: 2021 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
+
+const additionalPseudoSelectors = [
+	// Vue <style scoped>
+	// See: https://vuejs.org/api/sfc-css-features.html
+	'deep',
+	'slotted',
+
+	// CSS Modules (including Vue <style module>)
+	// See: https://github.com/css-modules/css-modules/blob/master/docs/composition.md#exceptions
+	'global',
+	'local',
+]
+
 module.exports = {
 	extends: [
 		'stylelint-config-recommended-scss',
@@ -33,15 +46,13 @@ module.exports = {
 		'selector-pseudo-class-no-unknown': [
 			true,
 			{
-				// vue deep pseudo-class
-				ignorePseudoClasses: ['deep'],
+				ignorePseudoClasses: additionalPseudoSelectors,
 			},
 		],
 		'selector-pseudo-element-no-unknown': [
 			true,
 			{
-				// Vue deep pseudo-element
-				ignorePseudoElements: ['deep'],
+				ignorePseudoElements: additionalPseudoSelectors,
 			},
 		],
 
