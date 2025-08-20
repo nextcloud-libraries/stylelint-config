@@ -45,6 +45,9 @@ module.exports = {
 			},
 		],
 
+		// Disable until we decide if we want "always" or "never"
+		'scss/load-partial-extension': null,
+
 		// Logical properties
 		'csstools/use-logical': [
 			'always',
