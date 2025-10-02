@@ -4,6 +4,17 @@
 -->
 # Changelog
 
+## [v3.1.1](https://github.com/nextcloud/stylelint-config/tree/v3.1.1) (2025-10-06)
+
+### Fixed
+* fix: allow all <style scoped> and CSS Modules pseudo selectors [\#140](https://github.com/nextcloud-libraries/stylelint-config/pull/140) ([ShGKme](https://github.com/ShGKme))
+* fix: temporarily disable scss/load-partial-extension [\#141](https://github.com/nextcloud-libraries/stylelint-config/pull/141) ([ShGKme](https://github.com/ShGKme))
+
+### Changed
+* ci: update npm-publish.yml workflow from template [\#139](https://github.com/nextcloud-libraries/stylelint-config/pull/139) ([susnux](https://github.com/susnux))
+* ci: update reuse.yml workflow from template [\#138](https://github.com/nextcloud-libraries/stylelint-config/pull/138) ([susnux](https://github.com/susnux))
+* chore: update node version requirement [\#143](https://github.com/nextcloud-libraries/stylelint-config/pull/143) ([susnux](https://github.com/susnux))
+
 ## [v3.1.0](https://github.com/nextcloud/stylelint-config/tree/v3.1.0) (2025-05-22)
 
 ### Added
