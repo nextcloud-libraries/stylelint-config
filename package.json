@@ -16,30 +16,39 @@
     "url": "git+https://github.com/nextcloud-libraries/stylelint-config.git"
   },
   "license": "AGPL-3.0-or-later",
-  "author": "John Molakvoæ <skjnldsv@protonmail.com>",
+  "author": "Nextcloud GmbH and Nextcloud contributors",
   "main": "index.js",
+  "overrides": {
+    "stylelint-use-logical": {
+      "stylelint": "^17.0.0"
+    }
+  },
   "dependencies": {
     "stylelint-use-logical": "^2.1.2"
   },
   "devDependencies": {
     "stylelint": "^17.0.0",
-    "stylelint-config-recommended-scss": "^16.0.2",
-    "stylelint-config-recommended-vue": "^1.5.0"
+    "stylelint-config-recommended-scss": "^17.0.0",
+    "stylelint-config-recommended-vue": "^1.6.1"
   },
   "peerDependencies": {
     "stylelint": "^17.0.0",
-    "stylelint-config-recommended-scss": "^16.0.2",
-    "stylelint-config-recommended-vue": "^1.5.0"
+    "stylelint-config-recommended-scss": "^17.0.0",
+    "stylelint-config-recommended-vue": "^1.6.1"
   },
   "engines": {
-    "node": "^20 || ^22 || ^24"
+    "node": "^20.19 || ^22 || ^24"
   },
   "devEngines": {
     "packageManager": [
       {
         "name": "npm",
-        "version": "^10.5.0"
+        "version": "^11.3.0"
       }
-    ]
+    ],
+    "runtime": {
+      "name": "node",
+      "version": "^24.0.0"
+    }
   }
 }
