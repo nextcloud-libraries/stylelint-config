@@ -22,12 +22,12 @@
     "stylelint-use-logical": "^2.1.2"
   },
   "devDependencies": {
-    "stylelint": "^16.13.2",
+    "stylelint": "^17.0.0",
     "stylelint-config-recommended-scss": "^16.0.2",
     "stylelint-config-recommended-vue": "^1.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.13.2",
+    "stylelint": "^17.0.0",
     "stylelint-config-recommended-scss": "^16.0.2",
     "stylelint-config-recommended-vue": "^1.5.0"
   },
