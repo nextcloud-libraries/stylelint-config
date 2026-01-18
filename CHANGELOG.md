@@ -4,6 +4,17 @@
 -->
 # Changelog
 
+## [v3.2.0](https://github.com/nextcloud/stylelint-config/tree/v3.2.0) (2026-01-17)
+### Added
+* feat(scss): enable "scss/load-partial-extension": "always" [\#144](https://github.com/nextcloud-libraries/stylelint-config/pull/144) ([ShGKme](https://github.com/ShGKme))
+
+### Changed
+* Minimum Node version increased to Node 20.19+ due to stylelint's requirements
+* Updated dependencies:
+  * Bump `stylelint` to 17.0.0
+  * Bump `stylelint-config-recommended-scss` to 17.0.0
+  * Bump `stylelint-config-recommended-vue` to 1.6.1
+
 ## [v3.1.1](https://github.com/nextcloud/stylelint-config/tree/v3.1.1) (2025-10-06)
 
 ### Fixed
