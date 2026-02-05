@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2021 Nextcloud GmbH and Nextcloud contributors
 # SPDX-License-Identifier: AGPL-3.0-or-later
+
 version: 2
 updates:
   - package-ecosystem: npm
@@ -8,5 +9,6 @@ updates:
       interval: weekly
       timezone: Europe/Paris
     open-pull-requests-limit: 10
+    versioning-strategy: increase
     labels:
     - dependencies
