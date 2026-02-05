@@ -4,6 +4,13 @@
 -->
 # Changelog
 
+## [v3.2.1](https://github.com/nextcloud/stylelint-config/tree/v3.2.1) (2026-02-05)
+### Changed
+* chore(deps): pin stylelint and stylelint-use-logical to remove overrides [\#154](https://github.com/nextcloud-libraries/stylelint-config/pull/154)
+* ci(dependabot): increase package versions on update [\#155](https://github.com/nextcloud-libraries/stylelint-config/pull/155)
+* Updated dependencies:
+  * Bump `stylelint` to 17.1.0
+
 ## [v3.2.0](https://github.com/nextcloud/stylelint-config/tree/v3.2.0) (2026-01-17)
 ### Added
 * feat(scss): enable "scss/load-partial-extension": "always" [\#144](https://github.com/nextcloud-libraries/stylelint-config/pull/144) ([ShGKme](https://github.com/ShGKme))
