@@ -18,21 +18,16 @@
   "license": "AGPL-3.0-or-later",
   "author": "Nextcloud GmbH and Nextcloud contributors",
   "main": "index.js",
-  "overrides": {
-    "stylelint-use-logical": {
-      "stylelint": "^17.0.0"
-    }
-  },
   "dependencies": {
-    "stylelint-use-logical": "^2.1.2"
+    "stylelint-use-logical": "^2.1.3"
   },
   "devDependencies": {
-    "stylelint": "^17.0.0",
+    "stylelint": "^17.1.1",
     "stylelint-config-recommended-scss": "^17.0.0",
     "stylelint-config-recommended-vue": "^1.6.1"
   },
   "peerDependencies": {
-    "stylelint": "^17.0.0",
+    "stylelint": "^17.1.1",
     "stylelint-config-recommended-scss": "^17.0.0",
     "stylelint-config-recommended-vue": "^1.6.1"
   },
