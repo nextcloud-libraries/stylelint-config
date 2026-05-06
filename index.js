@@ -56,6 +56,13 @@ module.exports = {
 			},
 		],
 
+		// Added in 16.23.0 to prevent CSS variables declaration outside rules
+		// The rule often results in false positives on update due to multiple csstools packages, requiring "npm dedupe"
+		// See: https://github.com/stylelint/stylelint/issues/9252
+		// The rule doesn't seem to be very useful
+		// Disabling to avoid false positives on updates until the upstream issue is resolved
+		'no-invalid-position-declaration': null,
+
 		// Consistent with ES imports
 		'scss/load-partial-extension': 'always',
 
