@@ -4,6 +4,15 @@
 -->
 # Changelog
 
+## [v3.2.2](https://github.com/nextcloud-libraries/stylelint-config/compare/v3.2.1...v3.2.2) (2026-05-07)
+### Fixed
+* fix: temporarily disable `no-invalid-position-declaration` [\#171](https://github.com/nextcloud-libraries/stylelint-config/pull/171) ([ShGKme](https://github.com/ShGKme))
+
+### Changed
+* Updated dependencies:
+  * Bump `stylelint` to 17.9.1
+  * Bump `stylelint-config-recommended-scss` to 17.0.1
+
 ## [v3.2.1](https://github.com/nextcloud/stylelint-config/tree/v3.2.1) (2026-02-05)
 ### Changed
 * chore(deps): pin stylelint and stylelint-use-logical to remove overrides [\#154](https://github.com/nextcloud-libraries/stylelint-config/pull/154)
