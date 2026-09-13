@@ -24,12 +24,12 @@
   "devDependencies": {
     "stylelint": "^17.14.0",
     "stylelint-config-recommended-scss": "^17.0.1",
-    "stylelint-config-recommended-vue": "^1.6.1"
+    "stylelint-config-recommended-vue": "^2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^17.14.0",
     "stylelint-config-recommended-scss": "^17.0.1",
-    "stylelint-config-recommended-vue": "^1.6.1"
+    "stylelint-config-recommended-vue": "^2.0.0"
   },
   "engines": {
     "node": "^20.19 || ^22 || ^24"
