@@ -32,7 +32,7 @@
     "stylelint-config-recommended-vue": "^2.0.0"
   },
   "engines": {
-    "node": "^20.19 || ^22 || ^24"
+    "node": "^22.22 || ^24.15 || >=26.0"
   },
   "devEngines": {
     "packageManager": [
@@ -43,7 +43,7 @@
     ],
     "runtime": {
       "name": "node",
-      "version": "^24.0.0"
+      "version": "^24.15.0"
     }
   }
 }
